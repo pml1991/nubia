@@ -217,34 +217,33 @@ function updateCount(){let sel=[];document.querySelectorAll('.combo-zona:checked
 function sendCombo(){if(!window._comboSel||!window._comboSel.length){alert('Selecciona al menos una zona');return}const txt=`Hola NUBIA! Quiero armar mi propio combo con descuento. Sexo: ${comboSex} - Zonas: ${window._comboSel.join(', ')} ¿Me cotizas?`;w(txt);closeCombo()}
 
 const preciosMujer = [
-  ["Rostro", 15000],
-  ["Bozo", 12000],
-  ["Axilas", 15000],
-  ["Brazos completos", 24000],
-  ["Abdomen", 18000],
-  ["Espalda baja", 18000],
-  ["Cavado de bikini", 18000],
-  ["Cavado completo", 22000],
-  ["Tira de cola", 14000],
-  ["Gluteos", 20000],
-  ["Media pierna", 18000],
-  ["Pierna entera", 28000],
-  ["Pierna completa", 28000]
+  ["Rostro", 13000],
+  ["Bozo", 8000],
+  ["Axilas", 14000],
+  ["Brazos completos", 15000],
+  ["Abdomen", 10000],
+  ["Espalda baja", 10000],
+  ["Cavado de bikini", 8000],
+  ["Cavado completo", 13000],
+  ["Tira de cola", 10000],
+  ["Gluteos", 10000],
+  ["Media pierna", 12000],
+  ["Pierna entera", 18000],
 ];
 const preciosHombre = [
-  ["Rostro completo", 22000],
-  ["Cuello", 15000],
-  ["Pecho", 24000],
-  ["Espalda", 28000],
-  ["Hombros", 18000],
+  ["Rostro completo", 15000],
+  ["Cuello", 8000],
+  ["Pecho", 10000],
+  ["Espalda", 15000],
+  ["Hombros", 10000],
   ["Axilas", 16000],
-  ["Brazos completos", 26000],
-  ["Abdomen", 22000],
-  ["Cavado", 18000],
-  ["Gluteos", 22000],
-  ["Media pierna", 20000],
-  ["Pierna completa", 30000],
-  ["Empeine", 12000]
+  ["Brazos completos", 14000],
+  ["Abdomen", 12000],
+  ["Cavado", 12000],
+  ["Gluteos", 12000],
+  ["Media pierna", 14000],
+  ["Pierna completa", 20000],
+  ["Empeine", 8000]
 ];
 
 function openPrecios(sexo){
